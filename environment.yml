@@ -13,3 +13,6 @@ dependencies:
   - geopandas
   - bottleneck
   - numexpr
+  git clone https://github.com/opentopography/RiverREM.git
+cd RiverREM
+conda env create -n riverrem --file environment.yml
